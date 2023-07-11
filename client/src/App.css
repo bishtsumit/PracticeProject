@@ -1,0 +1,265 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.form-control {
+  width: 50%;
+  height: 56px;
+  border-radius: 4px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: 0.3s all;
+}
+
+.field:hover {
+  background-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+}
+
+/* .button {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  cursor: pointer;
+} */
+.button {
+  background-color: #f3d825;
+  color: #000;
+  border: none;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 15px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+
+.mainContainer {
+  margin: 10px;
+  height: 135mm;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.DashboardBody {
+  width: 100%;
+  float: left;
+  height: 100%;
+  ;
+}
+
+.statusCounterContainer {
+  margin-top: 50px;
+}
+
+.StatusCounterCard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  float: left;
+  width: 13%;
+  margin-left: 5%;
+
+}
+
+.StatusCounterCount {
+  float: left;
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 5px 5px 0px 0px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.clr {
+  clear: both;
+}
+
+.StatusCounterLabel {
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 0px 0px 5px 5px;
+  height: 30px;
+  color: white;
+  border-top-color: 1px solid white !important;
+}
+
+.DashboardTableSpacing {
+  margin-top: 10px;
+  width: 95%;
+  margin-left: 2%;
+}
+
+.RequirementTable {
+  text-align: center;
+}
+
+.RequirementTable table {
+  border-width: 0px;
+  border-color: white !important;
+  border-collapse: separate;
+}
+
+.RequirementTable table tbody tr {
+  border-radius: 5px;
+}
+
+.RequirementTable table tbody tr td {
+  border: solid 1px #f5f6fa;
+}
+
+.RequirementTable table tbody tr:first-child td:first-child {
+  border-top-left-radius: 10px;
+}
+
+.RequirementTable table tbody tr:first-child td:last-child {
+  border-top-right-radius: 10px;
+}
+
+.RequirementTable table tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 10px;
+}
+
+.RequirementTable table tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 10px;
+}
+
+.RequirementTable table tbody tr:nth-child(even) {
+  background-color: #f5f6fa;
+}
+
+.RequirementTable table tbody tr:nth-child(odd) {
+  background-color: #f5f6fa;
+}
+
+.RequireDetlHead {
+  color: #404040;
+  font-weight: bold;
+  float: left;
+  margin-left: 2%;
+  margin-top: 15px;
+}
+
+.requirement-modal {
+  width: 80vw;
+  max-width: 80vw;
+}
+
+.DropdownDownArrow {
+  -webkit-appearance: menulist;
+}
+
+.fl {
+  float: left;
+}
+
+.mt10px {
+  margin-top: 10px;
+}
+
+.mt5px {
+  margin-top: 5px;
+}
+
+.mt20px {
+  margin-top: 20px;
+}
+
+.mt30px {
+  margin-top: 30px;
+}
+
+.mb10px {
+  margin-bottom: 10px;
+}
+
+.w100pc {
+  width: 100%;
+}
+
+.fs15px {
+  font-size: 15px;
+}
+
+.fwb {
+  font-weight: bold;
+}
+
+.fsi {
+  font-style: italic;
+}
+
+.br5px {
+  border-radius: 5px;
+}
+
+.fw500 {
+  font-weight: 500;
+}
+
+.txtbgColor {
+  background-color: #dfeaff !important;
+}
+
+.deletebtn {
+  color: red;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.addbtn {
+  background-color: #FFF;
+  border-bottom: 2px solid #3860C7;
+  border-radius: 0px;
+}
+
+.mb20px {
+  margin-bottom: 20px;
+}
+
+.cupointer {
+  cursor: pointer;
+}
+
+.fs20px {
+  font-size: 20px;
+}
