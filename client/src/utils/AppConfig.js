@@ -1,5 +1,5 @@
 const appConfig = {
-  apiUri: 'http://localhost:6060/'
+  apiUri: 'http://54.241.149.3:6060/'
 }
 
 
